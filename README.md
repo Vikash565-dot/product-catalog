@@ -23,23 +23,6 @@ npm install
 npm run dev
 ```
 
-## Deployment
-
-- Push the repo to GitHub.
-- Deploy the backend to Render.
-- Use Neon for the PostgreSQL database.
-- Deploy the frontend to Vercel or as a Render static site.
-
-### Environment variables
-
-Backend:
-
-- `DATABASE_URL` = Neon connection string
-
-Frontend:
-
-- `VITE_API_BASE_URL` = public backend URL, for example `https://your-backend.onrender.com`
-
 ## API
 
 ### `GET /products`
